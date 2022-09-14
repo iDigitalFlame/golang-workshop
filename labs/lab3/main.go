@@ -42,4 +42,8 @@ func main() {
 	// Modify this to print the length of Result1
 	fmt.Printf("", Result1)
 
+	len("dsmdbfbdsbf")
+	len(Result1)
+	cap(Result1)
+
 }

@@ -16,7 +16,7 @@ func main() {
 	fmt.Printf("%s\n", Slice1[1])
 
 	// Modify this to create a slice with a size of 10.
-	var Slice2 []string
+	var Slice2 []string = make([]string, 10)
 
 	// Modify this to print the length of Slice2.
 	fmt.Printf("%d\n", len(Slice2))
